@@ -1,0 +1,91 @@
+{
+  "uuid": "d1da0c43-ba02-4882-a199-12bf51206bb3",
+  "historyId": "4dd9bc2a65a1f970ef9eaca855937caf",
+  "testCaseId": "8483a5664066a6739224f5d635e72c16",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify option to request bluetooth permission",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify option to request bluetooth permission",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744795952689,
+      "stop": 1744795966153
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744795966155,
+      "stop": 1744795970718
+    },
+    {
+      "name": "Then verify 'Ok' is 'displayed' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744795970720,
+      "stop": 1744795974926
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744795952685,
+  "stop": 1744795974930
+}

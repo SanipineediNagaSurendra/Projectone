@@ -1,0 +1,205 @@
+{
+  "uuid": "ecbe0297-d6f1-40db-be5b-717c5ea82c1c",
+  "historyId": "4f320c94df4fdfb4e3569bacaca25ceb",
+  "testCaseId": "f82206da0ab3cd83aaac40906fb66a42",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify permission flow is not proceeded on denying bluetooth for Android",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify permission flow is not proceeded on denying bluetooth for Android",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestMultiplePlugins' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'crc647f80cf2a2d0a06ff.MainActivity' or 'com.ReSound.TestMultiplePlugins.crc647f80cf2a2d0a06ff.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting",
+    "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestMultiplePlugins' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'crc647f80cf2a2d0a06ff.MainActivity' or 'com.ReSound.TestMultiplePlugins.crc647f80cf2a2d0a06ff.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(ICommandExecutor commandExecutor, DriverOptions driverOptions)\r\n   at BluetoothPermission.StepDefinitions.steps.GivenILaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 61\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.ScenarioCleanupAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.VerifyPermissionFlowIsNotProceededOnDenyingBluetoothForAndroid() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Features\\Feature1.feature:line 82\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestMultiplePlugins' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'crc647f80cf2a2d0a06ff.MainActivity' or 'com.ReSound.TestMultiplePlugins.crc647f80cf2a2d0a06ff.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting",
+        "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestMultiplePlugins' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'crc647f80cf2a2d0a06ff.MainActivity' or 'com.ReSound.TestMultiplePlugins.crc647f80cf2a2d0a06ff.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(ICommandExecutor commandExecutor, DriverOptions driverOptions)\r\n   at BluetoothPermission.StepDefinitions.steps.GivenILaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 61\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879413196,
+      "stop": 1744879445504
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445506,
+      "stop": 1744879445509
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445509,
+      "stop": 1744879445509
+    },
+    {
+      "name": "When I 'Deny' permission request",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445510
+    },
+    {
+      "name": "When I press 'OpenSettings' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445510
+    },
+    {
+      "name": "When I press 'Permissions' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445510
+    },
+    {
+      "name": "When I scroll 'Down' and press 'NearbyDevices' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445510
+    },
+    {
+      "name": "When I press 'NativeSettingsDeny' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445510
+    },
+    {
+      "name": "When I relaunch the plugin app",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445510,
+      "stop": 1744879445511
+    },
+    {
+      "name": "Then verify 'OpenSettings' is 'displayed' on 'BluetoothPermissionPluginPage'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744879445511,
+      "stop": 1744879445511
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744879413192,
+  "stop": 1744879445541
+}

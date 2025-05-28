@@ -1,0 +1,121 @@
+{
+  "uuid": "0ef11f13-8932-4d7d-936a-f24a7b4d193c",
+  "historyId": "de0e8c1cd5f3333044b4e52d8a59a2df",
+  "testCaseId": "16c5d41902bb6207e673d2bdcb17a310",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify bluetooth permissions granted already",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify bluetooth permissions granted already",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744796899840,
+      "stop": 1744796912614
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744796912616,
+      "stop": 1744796917181
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744796917181,
+      "stop": 1744796921435
+    },
+    {
+      "name": "When I 'Grant' permission request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744796921435,
+      "stop": 1744796925682
+    },
+    {
+      "name": "When I terminate and relaunch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744796925682,
+      "stop": 1744796927999
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744796899836,
+  "stop": 1744796928004
+}

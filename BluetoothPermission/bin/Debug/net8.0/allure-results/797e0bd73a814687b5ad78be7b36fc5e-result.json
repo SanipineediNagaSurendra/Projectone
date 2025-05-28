@@ -1,0 +1,136 @@
+{
+  "uuid": "ce83706e-db52-4fdf-ac43-88cbcd4b0f17",
+  "historyId": "45a703c7a4549237b27be7a4161031c0",
+  "testCaseId": "87e20e2359c46b7b925d1e3300b2bc00",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify the app settings are displayed through OS for bluetooth permissions for Android",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify the app settings are displayed through OS for bluetooth permissions for Android",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811144620,
+      "stop": 1744811158294
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811158296,
+      "stop": 1744811162874
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811162874,
+      "stop": 1744811167181
+    },
+    {
+      "name": "When I 'Deny' permission request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811167183,
+      "stop": 1744811171421
+    },
+    {
+      "name": "When I press 'OpenSettings' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811171421,
+      "stop": 1744811175751
+    },
+    {
+      "name": "Then verify 'Permissions' is 'displayed' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744811175753,
+      "stop": 1744811179987
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744811144617,
+  "stop": 1744811179990
+}

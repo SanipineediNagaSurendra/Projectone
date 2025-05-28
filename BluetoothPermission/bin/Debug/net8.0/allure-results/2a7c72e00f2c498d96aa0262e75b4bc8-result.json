@@ -1,0 +1,115 @@
+{
+  "uuid": "06042e56-a4d2-4a27-adcf-23f492888ed8",
+  "historyId": "8268a288e1339fbf508d511ddf0d9712",
+  "testCaseId": "fa9c9e5a2f7d1a4512d462f26b91bbe2",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify option to open settings in bluetooth permission page",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify option to open settings in bluetooth permission page",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 38: \"",
+    "trace": "OpenQA.Selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 38: \"\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.FindElement(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 19\r\n   at BluetoothPermission.Pages.Pagebase.click(String button) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 169\r\n   at BluetoothPermission.StepDefinitions.steps.WhenIPermissionRequest(String deny) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 115\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.ScenarioCleanupAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.VerifyOptionToOpenSettingsInBluetoothPermissionPage() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Features\\Feature1.feature:line 18\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744793778480,
+      "stop": 1744793794117
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744793794121,
+      "stop": 1744793798687
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744793798687,
+      "stop": 1744793803009
+    },
+    {
+      "name": "When I 'Deny' permission request",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 38: \"",
+        "trace": "OpenQA.Selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: JFlex lexer error: Unknown character at line 1 col 38: \"\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.FindElement(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 19\r\n   at BluetoothPermission.Pages.Pagebase.click(String button) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 169\r\n   at BluetoothPermission.StepDefinitions.steps.WhenIPermissionRequest(String deny) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 115\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744793803011,
+      "stop": 1744793805230
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744793778476,
+  "stop": 1744793805247
+}

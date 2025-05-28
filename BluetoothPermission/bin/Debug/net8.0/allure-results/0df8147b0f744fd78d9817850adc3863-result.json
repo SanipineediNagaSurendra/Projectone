@@ -1,0 +1,160 @@
+{
+  "uuid": "a236d6f2-d5db-4866-b090-b45ec20966c9",
+  "historyId": "de0e8c1cd5f3333044b4e52d8a59a2df",
+  "testCaseId": "16c5d41902bb6207e673d2bdcb17a310",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify bluetooth permissions granted already",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify bluetooth permissions granted already",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ReSound.TestSinglePlugin.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity",
+    "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ReSound.TestSinglePlugin.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(ICommandExecutor commandExecutor, DriverOptions driverOptions)\r\n   at BluetoothPermission.StepDefinitions.steps.WhenITerminateAndRelaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 167\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.ScenarioCleanupAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.VerifyBluetoothPermissionsGrantedAlready() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Features\\Feature1.feature:line 30\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872242028,
+      "stop": 1744872262841
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872262843,
+      "stop": 1744872267276
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872267277,
+      "stop": 1744872271457
+    },
+    {
+      "name": "When I 'Grant' permission request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872271458,
+      "stop": 1744872275621
+    },
+    {
+      "name": "When I terminate and relaunch the plugin app",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ReSound.TestSinglePlugin.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity",
+        "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ReSound.TestSinglePlugin' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ReSound.TestSinglePlugin.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(ICommandExecutor commandExecutor, DriverOptions driverOptions)\r\n   at BluetoothPermission.StepDefinitions.steps.WhenITerminateAndRelaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 167\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872275622,
+      "stop": 1744872291046
+    },
+    {
+      "name": "When I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872291046,
+      "stop": 1744872291048
+    },
+    {
+      "name": "Then verify plugin is completed",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744872291049,
+      "stop": 1744872291049
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744872242024,
+  "stop": 1744872291056
+}

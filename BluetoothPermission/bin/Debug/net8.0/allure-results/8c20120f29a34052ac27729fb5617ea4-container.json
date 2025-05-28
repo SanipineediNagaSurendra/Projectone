@@ -1,0 +1,29 @@
+{
+  "uuid": "c00ffcce-ca31-452d-a62d-0a139c220862",
+  "children": [
+    "38516d82-ee32-4d4a-8dac-5d280525ff33"
+  ],
+  "befores": [
+    {
+      "name": "Hooks.BeforeFeature(FeatureContext)",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Object reference not set to an instance of an object.",
+        "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at BluetoothPermission.Hooks.Hooks.BeforeFeature(FeatureContext featureContext) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Hooks\\Hooks1.cs:line 541\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.InvokeHookAsync(IAsyncBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.FireEventsAsync(HookType hookType)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744701437119,
+      "stop": 1744701437347
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1744701437115,
+  "stop": 1744701437441
+}

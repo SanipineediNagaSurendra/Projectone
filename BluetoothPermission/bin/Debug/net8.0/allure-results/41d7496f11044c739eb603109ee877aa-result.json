@@ -1,0 +1,130 @@
+{
+  "uuid": "44584e43-fb5c-401f-b544-505dba6f927f",
+  "historyId": "8044d636a987d0cbec78ae0fc59a6946",
+  "testCaseId": "7b1c7d2fbe8e1fa7235b4c71b07c2c5c",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify bluetooth permission is granted through OS",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify bluetooth permission is granted through OS",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Thrown exception : System.Exception: Search is NOT supported\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.GetAutomationID(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 41\r\n   at BluetoothPermission.Pages.Pagebase.WaitForElementToBeVisible(BluetoothPermissionPluginPage page, String elementName, Int32 timeoutInSeconds) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 115\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 85",
+    "trace": "System.Exception: Thrown exception : System.Exception: Search is NOT supported\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.GetAutomationID(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 41\r\n   at BluetoothPermission.Pages.Pagebase.WaitForElementToBeVisible(BluetoothPermissionPluginPage page, String elementName, Int32 timeoutInSeconds) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 115\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 85\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 109\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyPluginIsCompleted() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 134\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.ScenarioCleanupAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.VerifyBluetoothPermissionIsGrantedThroughOS() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Features\\Feature1.feature:line 40\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744807798096,
+      "stop": 1744807812011
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744807812012,
+      "stop": 1744807816647
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744807816648,
+      "stop": 1744807820905
+    },
+    {
+      "name": "When I 'Grant' permission request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744807820906,
+      "stop": 1744807825149
+    },
+    {
+      "name": "Then verify plugin is completed",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Thrown exception : System.Exception: Search is NOT supported\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.GetAutomationID(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 41\r\n   at BluetoothPermission.Pages.Pagebase.WaitForElementToBeVisible(BluetoothPermissionPluginPage page, String elementName, Int32 timeoutInSeconds) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 115\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 85",
+        "trace": "System.Exception: Thrown exception : System.Exception: Search is NOT supported\r\n   at BluetoothPermission.Pages.BluetoothPermissionPluginPage.GetAutomationID(String elementName) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\BluetoothPermissionPluginPage.cs:line 41\r\n   at BluetoothPermission.Pages.Pagebase.WaitForElementToBeVisible(BluetoothPermissionPluginPage page, String elementName, Int32 timeoutInSeconds) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Pages\\Pagebase.cs:line 115\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 85\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyIsOn(String ok, String isDisplayed, String pagename) in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 109\r\n   at BluetoothPermission.StepDefinitions.steps.ThenVerifyPluginIsCompleted() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 134\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744807825152,
+      "stop": 1744807825181
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744807798092,
+  "stop": 1744807825188
+}

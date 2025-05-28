@@ -1,0 +1,145 @@
+{
+  "uuid": "19762e5d-da8c-485c-b575-706888e6a190",
+  "historyId": "de0e8c1cd5f3333044b4e52d8a59a2df",
+  "testCaseId": "16c5d41902bb6207e673d2bdcb17a310",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify bluetooth permissions granted already",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify bluetooth permissions granted already",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "An unknown server-side error occurred while processing the command. Original error: Cannot activate 'com.ReSound.TestSinglePlugin'. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\iray\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s RFCNC0X694V shell monkey -p com.ReSound.TestSinglePlugin -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: args: [-p, com.ReSound.TestSinglePlugin, -c, android.intent.category.LAUNCHER, 1]\r\n arg: \"-p\"\r\n arg: \"com.ReSound.TestSinglePlugin\"\r\n arg: \"-c\"\r\n arg: \"android.intent.category.LAUNCHER\"\r\n arg: \"1\"\r\ndata=\"com.ReSound.TestSinglePlugin\"\r\ndata=\"android.intent.category.LAUNCHER\"\r\n",
+    "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate 'com.ReSound.TestSinglePlugin'. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\iray\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s RFCNC0X694V shell monkey -p com.ReSound.TestSinglePlugin -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: args: [-p, com.ReSound.TestSinglePlugin, -c, android.intent.category.LAUNCHER, 1]\r\n arg: \"-p\"\r\n arg: \"com.ReSound.TestSinglePlugin\"\r\n arg: \"-c\"\r\n arg: \"android.intent.category.LAUNCHER\"\r\n arg: \"1\"\r\ndata=\"com.ReSound.TestSinglePlugin\"\r\ndata=\"android.intent.category.LAUNCHER\"\r\n\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.ActivateApp(String appId)\r\n   at BluetoothPermission.StepDefinitions.steps.WhenITerminateAndRelaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 128\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.ScenarioCleanupAsync()\r\n   at BluetoothPermission.Features.BluetoothpermissionFeature.VerifyBluetoothPermissionsGrantedAlready() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\Features\\Feature1.feature:line 27\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804402188,
+      "stop": 1744804416043
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804416044,
+      "stop": 1744804420615
+    },
+    {
+      "name": "Given I press 'Ok' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804420615,
+      "stop": 1744804424914
+    },
+    {
+      "name": "When I 'Grant' permission request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804424915,
+      "stop": 1744804429145
+    },
+    {
+      "name": "When I terminate and relaunch the plugin app",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "An unknown server-side error occurred while processing the command. Original error: Cannot activate 'com.ReSound.TestSinglePlugin'. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\iray\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s RFCNC0X694V shell monkey -p com.ReSound.TestSinglePlugin -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: args: [-p, com.ReSound.TestSinglePlugin, -c, android.intent.category.LAUNCHER, 1]\r\n arg: \"-p\"\r\n arg: \"com.ReSound.TestSinglePlugin\"\r\n arg: \"-c\"\r\n arg: \"android.intent.category.LAUNCHER\"\r\n arg: \"1\"\r\ndata=\"com.ReSound.TestSinglePlugin\"\r\ndata=\"android.intent.category.LAUNCHER\"\r\n",
+        "trace": "OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot activate 'com.ReSound.TestSinglePlugin'. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\iray\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s RFCNC0X694V shell monkey -p com.ReSound.TestSinglePlugin -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: args: [-p, com.ReSound.TestSinglePlugin, -c, android.intent.category.LAUNCHER, 1]\r\n arg: \"-p\"\r\n arg: \"com.ReSound.TestSinglePlugin\"\r\n arg: \"-c\"\r\n arg: \"android.intent.category.LAUNCHER\"\r\n arg: \"1\"\r\ndata=\"com.ReSound.TestSinglePlugin\"\r\ndata=\"android.intent.category.LAUNCHER\"\r\n\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.ActivateApp(String appId)\r\n   at BluetoothPermission.StepDefinitions.steps.WhenITerminateAndRelaunchThePluginApp() in C:\\Users\\iray\\source\\repos\\BluetoothPermission\\StepDefinitions\\steps.cs:line 128\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804429145,
+      "stop": 1744804438714
+    },
+    {
+      "name": "When I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744804438714,
+      "stop": 1744804438716
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744804402183,
+  "stop": 1744804438723
+}

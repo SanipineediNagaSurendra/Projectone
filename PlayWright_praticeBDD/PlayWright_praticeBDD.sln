@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWright_praticeBDD", "PlayWright_praticeBDD\PlayWright_praticeBDD.csproj", "{81146532-BC0E-463C-979C-0A2DD7861AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81146532-BC0E-463C-979C-0A2DD7861AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81146532-BC0E-463C-979C-0A2DD7861AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81146532-BC0E-463C-979C-0A2DD7861AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81146532-BC0E-463C-979C-0A2DD7861AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332FC4AE-DD88-4EF2-B82B-5C63382CB6A9}
+	EndGlobalSection
+EndGlobal

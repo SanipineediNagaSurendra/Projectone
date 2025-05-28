@@ -1,0 +1,7 @@
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\bin\Debug\C-sharp Advanced concepts.exe.config
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\bin\Debug\C-sharp Advanced concepts.exe
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\bin\Debug\C-sharp Advanced concepts.pdb
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\obj\Debug\C-sharp Advanced concepts.csproj.AssemblyReference.cache
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\obj\Debug\C-sharp Advanced concepts.csproj.CoreCompileInputs.cache
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\obj\Debug\C-sharp Advanced concepts.exe
+D:\csharp\C-sharp Advanced concepts\C-sharp Advanced concepts\obj\Debug\C-sharp Advanced concepts.pdb

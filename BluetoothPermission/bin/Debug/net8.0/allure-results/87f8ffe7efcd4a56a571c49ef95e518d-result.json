@@ -1,0 +1,76 @@
+{
+  "uuid": "e0afbbaf-ecf1-4063-95f9-30be557862ad",
+  "historyId": "4dd9bc2a65a1f970ef9eaca855937caf",
+  "testCaseId": "8483a5664066a6739224f5d635e72c16",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify option to request bluetooth permission",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify option to request bluetooth permission",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744711533622,
+      "stop": 1744711548122
+    },
+    {
+      "name": "Given I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744711548123,
+      "stop": 1744711552700
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744711533619,
+  "stop": 1744711552708
+}

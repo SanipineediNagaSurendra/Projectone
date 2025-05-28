@@ -1,0 +1,143 @@
+2025-02-18 08:15:41:660 [Appium] Welcome to Appium v2.13.1
+2025-02-18 08:15:41:664 [Appium] Non-default server args:
+2025-02-18 08:15:41:671 [Appium] { address: '127.0.0.1' }
+2025-02-18 08:15:41:671 [Appium] The autodetected Appium home path: C:\Users\nagas\.appium
+2025-02-18 08:15:41:673 [Appium] Attempting to load driver uiautomator2...
+2025-02-18 08:15:41:678 [Appium] Requiring driver at C:\Users\nagas\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+2025-02-18 08:15:45:742 [Appium] AndroidUiautomator2Driver has been successfully loaded in 4.066s
+2025-02-18 08:15:45:858 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2025-02-18 08:15:45:859 [Appium] Available drivers:
+2025-02-18 08:15:45:860 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
+2025-02-18 08:15:45:861 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-02-18 08:15:46:379 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:46:398 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:46:413 [HTTP] <-- GET /wd/hub/status 404 28 ms - 211 
+2025-02-18 08:15:48:465 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:48:471 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:48:473 [HTTP] <-- GET /wd/hub/status 404 7 ms - 211 
+2025-02-18 08:15:50:528 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:50:529 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:50:533 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:15:52:569 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:52:570 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:52:571 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:15:54:617 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:54:618 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:54:620 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:15:56:659 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:56:659 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:56:661 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:15:58:714 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:15:58:715 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:15:58:716 [HTTP] <-- GET /wd/hub/status 404 1 ms - 211 
+2025-02-18 08:16:00:762 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:00:763 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:00:766 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:02:824 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:02:825 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:02:830 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:04:884 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:04:886 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:04:890 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:16:06:952 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:06:953 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:06:958 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:16:09:008 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:09:009 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:09:013 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:11:058 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:11:060 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:11:064 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:16:13:113 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:13:115 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:13:118 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:15:177 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:15:178 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:15:180 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:17:213 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:17:214 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:17:216 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:19:278 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:19:279 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:19:281 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:21:342 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:21:343 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:21:346 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:23:412 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:23:414 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:23:417 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:16:25:474 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:25:475 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:25:479 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:27:517 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:27:519 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:27:522 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:29:581 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:29:583 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:29:586 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:31:631 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:31:632 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:31:635 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:33:677 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:33:678 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:33:680 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:35:735 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:35:736 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:35:739 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:37:794 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:37:795 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:37:797 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:39:827 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:39:828 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:39:830 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:41:885 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:41:886 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:41:889 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:43:935 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:43:936 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:43:938 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:45:992 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:45:993 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:45:996 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:48:032 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:48:033 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:48:034 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:50:100 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:50:101 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:50:112 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:52:167 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:52:168 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:52:171 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:54:203 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:54:204 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:54:207 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:16:56:258 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:56:259 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:56:261 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:16:58:324 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:16:58:325 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:16:58:328 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:17:00:385 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:00:386 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:00:388 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:17:02:425 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:02:426 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:02:429 [HTTP] <-- GET /wd/hub/status 404 3 ms - 211 
+2025-02-18 08:17:04:475 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:04:478 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:04:480 [HTTP] <-- GET /wd/hub/status 404 4 ms - 211 
+2025-02-18 08:17:06:528 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:06:529 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:06:531 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:17:08:569 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:08:570 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:08:573 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:17:10:640 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:10:642 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:10:644 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:17:12:677 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:12:678 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:12:680 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 
+2025-02-18 08:17:14:721 [HTTP] --> GET /wd/hub/status {}
+2025-02-18 08:17:14:721 [HTTP] No route found for /wd/hub/status
+2025-02-18 08:17:14:723 [HTTP] <-- GET /wd/hub/status 404 2 ms - 211 

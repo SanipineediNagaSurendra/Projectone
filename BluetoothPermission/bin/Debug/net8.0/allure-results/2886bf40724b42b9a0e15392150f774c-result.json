@@ -1,0 +1,106 @@
+{
+  "uuid": "8b702c99-8621-4b3e-bfe6-06350017b471",
+  "historyId": "207186236b63fda7bade547c988c15dc",
+  "testCaseId": "af60b272245cb6c48e06ae44057d04d0",
+  "fullName": "BluetoothPermission/Features/bluetoothpermission/Verify rationale on granting the bluetooth permissions",
+  "labels": [
+    {
+      "name": "host",
+      "value": "IRAYAUTO009"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.bluetoothpermission"
+    },
+    {
+      "name": "feature",
+      "value": "bluetoothpermission"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verify rationale on granting the bluetooth permissions",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I launch the plugin app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744806141756,
+      "stop": 1744806155692
+    },
+    {
+      "name": "When I scroll 'Down' and launch plugin 'BluetoothPermissionPlugin'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744806155693,
+      "stop": 1744806160252
+    },
+    {
+      "name": "Then verify 'BluetoothPermissionHeader' is 'displayed' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744806160254,
+      "stop": 1744806164479
+    },
+    {
+      "name": "Then verify 'BluetoothPermissionBody' is 'displayed' on 'BluetoothPermissionPluginPage'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744806164480,
+      "stop": 1744806168706
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1744806141751,
+  "stop": 1744806168710
+}
