@@ -15,7 +15,7 @@ pipeline {
               steps
                {
                     echo 'Testjob sucessfully executed...'
-                    bat 'Test job running'
+                    bat 'dotnet test'
                 }
             }
            stage('Deploy')
@@ -23,7 +23,7 @@ pipeline {
                steps
                 {
                    echo 'Deployjob sucessfully executed...'
-                   bat 'Deploy job runnig'
+                   bat 'dotnet deploy'
                 }
           }
    }
