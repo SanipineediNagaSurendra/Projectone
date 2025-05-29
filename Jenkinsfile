@@ -7,7 +7,7 @@ pipeline {
             steps
             {
                echo 'Buildjob sucessfully executed....'
-                bat 'Build job running'
+               bat 'dotnet build'
             }
       }
       stage('Test')
