@@ -1,0 +1,51 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git url: 'https://github.com/ShanawazMd700/Playwright.git'
+            }
+        }
+
+        stage('Restore Dependencies') {
+            steps {
+                bat 'dotnet restore'
+            }
+        }
+
+        stage('Install Playwright CLI (locally)') {
+            steps {
+                bat '''
+                    dotnet new tool-manifest --force
+                    dotnet tool install Microsoft.Playwright.CLI
+                '''
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'dotnet build --configuration Release'
+            }
+        }
+
+        stage('Install Playwright Browsers') {
+            steps {
+                bat 'dotnet tool run playwright install'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'dotnet test --configuration Release --logger "trx;LogFileName=testresults.trx"'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Test is complete.......'
+            // junit '**/TestResults/*.xml'
+        }
+    }
+}
